@@ -19,11 +19,11 @@ $ pip3 install -r requirements.txt # installing libraries
 
 Starting the program 
 ---
+Choose your desired teritorry from the collumn's webside link: "Výběr Obce", eng: "Choice of village"
+
 To run the election.py file, you need to input 3 mandatory arguments.
 
 python election.py <"url referring to the desired territory"> <"filename.csv">
-
-Choose your desired teritorry from the collumn's webside link: "Výběr Obce", eng: "Choice of village"
 
 Sample program (example)
 ---
@@ -40,10 +40,20 @@ python election.py "https://www.volby.cz/pls/ep2024/ep133?xjazyk=CZ&xnumnuts=210
 ```
 Note that there must a space between the link and the file name
 
-
+Succesfull download
+---
 Fetching data from: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2108
 Loading...
 Data was saved into file: Nymburk_results.csv
+
+File output
+---
+```
+Code	Location	Registered	Envelopes	Valid	Občanská demokratická strana, and other parties...
+537021	Běrunice	  690	        382	        382	      27
+537039	Bobnice	          666	        389	        387	      37
+```
+
 
 
 
