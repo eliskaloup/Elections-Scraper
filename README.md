@@ -43,7 +43,9 @@ Note that there must a space between the link and the file name
 Succesfull download
 ---
 Fetching data from: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2108
+
 Loading...
+
 Data was saved into file: Nymburk_results.csv
 
 File output
@@ -54,7 +56,14 @@ Code	Location	Registered	Envelopes	Valid	Občanská demokratická strana, and ot
 537039	Bobnice	          666	        389	        387	      37
 ```
 
+In the case of error
+---
 
+Program needs 2 arguments to run: URL and CSV file name.
+
+First argument is not a correct URL.
+
+Second argument is not a CSV file name
 
 
 
