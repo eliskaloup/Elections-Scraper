@@ -1,3 +1,10 @@
+"""
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+author: Eliska Loup
+email: eliskaloup@outlook.com
+"""
+
+
 import sys
 import requests
 import pandas as pd
