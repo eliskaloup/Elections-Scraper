@@ -12,18 +12,18 @@ The packages used in this projects are located in the requirements.txt file.
 To be able to install the used libraries, create a **virtual environment** and install the necessary packages:
 
 ```
-pip3 --version # manager version verification
+pip3 --version                       # manager version verification
 
-python -m venv {file_name}  #creating virtual environment
+python -m venv <"filename">          # creating virtual environment
 
-.\venv\Scripts\Activate  #activating virtual environment
+.\venv\Scripts\Activate              # activating virtual environment
 
-pip3 install -r requirements.txt # installing libraries
+pip3 install -r requirements.txt     # installing libraries
 ```
 
 Starting the program 
 ---
-Choose your desired teritorry from the collumn's webside link: "Výběr Obce", eng: "Choice of village"
+Choose your desired teritorry from the collumn's webside link: "Výběr Obce" or Eng: "Choice of village"
 
 To run the election.py file, you need to input 3 mandatory arguments.
 
