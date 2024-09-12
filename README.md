@@ -12,9 +12,13 @@ The packages used in this projects are located in the requirements.txt file.
 To be able to install the used libraries, create a **virtual environment** and install the necessary packages:
 
 ```
-$ pip3 --version # manager version verification
+pip3 --version # manager version verification
 
-$ pip3 install -r requirements.txt # installing libraries
+python -m venv {file_name}  #creating virtual environment
+
+.\venv\Scripts\Activate  #activating virtual environment
+
+pip3 install -r requirements.txt # installing libraries
 ```
 
 Starting the program 
